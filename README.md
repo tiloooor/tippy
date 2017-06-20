@@ -1,16 +1,16 @@
 # Project 1 - *Name of App Here*
 
-**Name of your app** is a tip calculator application for iOS.
+Tippy the Calculator is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: Tyler Holloway
 
-Time spent: **X** hours spent in total
+Time spent: 2 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
@@ -21,19 +21,19 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/dyc8bVm.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I faced very few challenegs, namely the following. First, I had to use command + k to get the keyboard up and running; second, it took me some time to figure out Cockos; third, I accidently used the git command revert, and deleted my work in the beginning. 
 
 ## Credits
 
@@ -43,7 +43,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2017] [Tyler Holloway]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
