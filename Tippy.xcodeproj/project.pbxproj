@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F763E4F91EF9EDFF00AF18D9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763E4F81EF9EDFF00AF18D9 /* SettingsViewController.swift */; };
+		F763E4FB1EF9F05F00AF18D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763E4FA1EF9F05F00AF18D9 /* ViewController.swift */; };
 		F765ECC01EF9BCBE005010E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765ECBF1EF9BCBE005010E7 /* AppDelegate.swift */; };
-		F765ECC21EF9BCBE005010E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765ECC11EF9BCBE005010E7 /* ViewController.swift */; };
 		F765ECC51EF9BCBE005010E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F765ECC31EF9BCBE005010E7 /* Main.storyboard */; };
 		F765ECC71EF9BCBE005010E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F765ECC61EF9BCBE005010E7 /* Assets.xcassets */; };
 		F765ECCA1EF9BCBE005010E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F765ECC81EF9BCBE005010E7 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F763E4F81EF9EDFF00AF18D9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		F763E4FA1EF9F05F00AF18D9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = SOURCE_ROOT; };
 		F765ECBC1EF9BCBE005010E7 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F765ECBF1EF9BCBE005010E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F765ECC11EF9BCBE005010E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F765ECC41EF9BCBE005010E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F765ECC61EF9BCBE005010E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F765ECC91EF9BCBE005010E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +99,9 @@
 		F765ECBE1EF9BCBE005010E7 /* Tippy */ = {
 			isa = PBXGroup;
 			children = (
+				F763E4FA1EF9F05F00AF18D9 /* ViewController.swift */,
+				F763E4F81EF9EDFF00AF18D9 /* SettingsViewController.swift */,
 				F765ECBF1EF9BCBE005010E7 /* AppDelegate.swift */,
-				F765ECC11EF9BCBE005010E7 /* ViewController.swift */,
 				F765ECC31EF9BCBE005010E7 /* Main.storyboard */,
 				F765ECC61EF9BCBE005010E7 /* Assets.xcassets */,
 				F765ECC81EF9BCBE005010E7 /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F765ECC21EF9BCBE005010E7 /* ViewController.swift in Sources */,
+				F763E4FB1EF9F05F00AF18D9 /* ViewController.swift in Sources */,
 				F765ECC01EF9BCBE005010E7 /* AppDelegate.swift in Sources */,
+				F763E4F91EF9EDFF00AF18D9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				F765ECE61EF9BCBE005010E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F765ECE71EF9BCBE005010E7 /* Build configuration list for PBXNativeTarget "TippyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				F765ECE91EF9BCBE005010E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F765ECEA1EF9BCBE005010E7 /* Build configuration list for PBXNativeTarget "TippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				F765ECEC1EF9BCBE005010E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
